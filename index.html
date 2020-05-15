@@ -11,15 +11,19 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:400,700,900&display=swap" rel="stylesheet">
+    <!--Scroll reveal CDN-->
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script src="https://kit.fontawesome.com/5e26c06771.js" crossorigin="anonymous"></script>
     <!-- custom CSS -->
     <link rel="stylesheet" href="css/speaker.css">
-    <script src="https://kit.fontawesome.com/5e26c06771.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
     <!-- Top banner -->
-    <div class="freeshippingbanner">HURRY UP! FREE SHIPPING FOR ALL ORDERS ABOVE $250</div>
+    <div class="freeshippingbanner" id="freeshippingbanner"><span>HURRY UP! FREE SHIPPING FOR ALL ORDERS ABOVE
+            $250</span></div>
 
     <!-- header -->
     <div class="header">
@@ -27,7 +31,7 @@
         <div class="bgtext">SPEAKERS</div>
         <!-- navbar -->
         <div class="headernavbar">
-            <img src="images/logo.png" alt="logo" class="logo">
+            <a href="#" class="logo-link"><img src="images/logo.png" alt="logo" class="logo"></a>
             <div class="m-auto"></div>
             <div class="links">
                 <a href="#home">Home</a>
@@ -42,13 +46,13 @@
         <div class="headercontent container">
             <div class="row">
                 <div class="col-sm-6">
-                    <p>SMART BLUETOOTH SPEAKER</p>
-                    <h1>Big Sound<span class="dot">.</span></h1>
-                    <h1>Portable Size<span class="dot">.</span></h1>
-                    <button class="btn">Discover More</button>
+                    <p class="headercontent-p1">SMART BLUETOOTH SPEAKER</p>
+                    <h1 class="headercontent-h1-1">Big Sound<span class="dot">.</span></h1>
+                    <h1 class="headercontent-h1-2">Portable Size<span class="dot">.</span></h1>
+                    <button class="btn headercontent-btn">Discover More</button>
                 </div>
                 <div class="col-sm-6">
-                    <img src="images/speaker3-removebg-preview.png" alt="" class="header-image">
+                    <img src="images/speaker-header-img.png" alt="" class="header-image">
                 </div>
             </div>
         </div>
@@ -56,7 +60,7 @@
     <!-- header ends -->
 
     <!-- Features 1 div  -->
-    <div class="featuresdiv1 container">
+    <div class="featuresdiv1 container" id="featuresdiv1">
         <h1>SOUND YOU CAN<br>BELIEVE IN</h1>
         <P>BoAt Airdopes 201 portable True Wireless earbuds has been launched in India. These are claimed to offer
             premium HD sound with clear stereo as well as feature a sleek and lightweight design. The earbuds connect to
@@ -84,7 +88,7 @@
     <!-- Features 1 div ends  -->
 
     <!-- Features 2 div  -->
-    <div class="featuresdiv2">
+    <div class="featuresdiv2" id="featuresdiv2">
         <div class="features2content container">
             <div class="row">
                 <div class="col-sm-6">
@@ -111,14 +115,15 @@
                     </div>
                 </div>
                 <div class="col-sm-6 f2imgcol">
-                    <img src="images/speaker4-removebg-preview.png" alt="" class="img-fluid">
+                    <img src="images/speaker-img-2.png" alt="" class="img-fluid f2-img">
                 </div>
             </div>
         </div>
     </div>
     <!-- Features 2 div ends  -->
 
-    <div class="featuresdiv3">
+    <!-- Features 3 div  -->
+    <div class="featuresdiv3" id="featuresdiv3">
         <div class="features3content container">
             <div class="row">
                 <div class="col-md-6">
@@ -144,12 +149,14 @@
             </div>
         </div>
     </div>
-    </div>
+    <!-- Features 3 div ends  -->
+
+    <!-- Features 4 div  -->
     <div class="featuresdiv4" id="shop">
         <div class="features4content container">
             <div class="row">
                 <div class="col-sm-5">
-                    <img src="images/speaker8-removebg-preview.png" alt="" class="img-fluid">
+                    <img src="images/speaker-img-3.png" alt="" class="img-fluid f4-img">
                 </div>
                 <div class="col-sm-7">
                     <h2>4 DIFFERENT COLOR<br>VARIATIONS</h2>
@@ -169,14 +176,17 @@
             </div>
         </div>
     </div>
+    <!-- Features 4 div ends  -->
+
+    <!-- banner 1 -->
     <div class="banner1">
         <img src="images/play-logo.png" alt="">
         <h2>TAKE THE BEAT<br>WITH YOU</h2>
     </div>
-    <!-- <div class="banner2">
+    <!-- banner 1 ends -->
 
-    </div> -->
-    <div class="customerreview">
+    <!-- Customer reviews -->
+    <div class="customerreview" id="customerreview">
         <div class="customerreviewcontent container">
             <h2>WHAT THEY SAY</h2>
             <div class="row">
@@ -188,7 +198,7 @@
                             India. These are claimed to
                             offer</p>
                         <hr>
-                        <img src="images/images.png" alt="">
+                        <img src="images/customer-1.jpg" alt="customer-1.jpg">
                         <h5>Customer Name</h5>
                     </div>
                 </div>
@@ -200,7 +210,7 @@
                             India. These are claimed to
                             offer</p>
                         <hr>
-                        <img src="images/images.png" alt="">
+                        <img src="images/customer-2.jpg" alt="customer-2.jpg">
                         <h5>Customer Name</h5>
                     </div>
                 </div>
@@ -212,13 +222,16 @@
                             India. These are claimed to
                             offer</p>
                         <hr>
-                        <img src="images/images.png" alt="">
+                        <img src="images/customer-3.jpg" alt="customer-3.jpg">
                         <h5>Customer Name</h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Customer reviews ends -->
+
+    <!-- features div 5 -->
     <div class="featuresdiv5" id="features">
         <div class="features5content1 container">
             <h2>BIG BEATS ON THE GO</h2>
@@ -249,11 +262,14 @@
             </div>
         </div>
         <div class="features5content2">
-            <img src="images/speaker6.png" alt="" class="img-fluid">
+            <img src="images/speaker-img-4.png" alt="" class="img-fluid">
             <h1>SHOP SPEAKER</h1>
             <h4>Get 10% OFF On Orders Above $200</h4>
         </div>
     </div>
+    <!-- features div 5 ends-->
+
+    <!-- footer -->
     <hr>
     <div class="footer container" id="contact">
         <div class="row">
@@ -264,18 +280,18 @@
                     <input type="text" name="email" id="email" placeholder="Email" aria-label="email input">
                 </div>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-5 col-md-4">
                 <h5>Explore</h5>
-                <p>About</p>
-                <p>Contact</p>
-                <p>Help & FAQs</p>
-                <p>Terms of Use</p>
-                <p>Privacy Policy</p>
+                <p><a href="#">About</a></p>
+                <p><a href="#">Contact</a></p>
+                <p><a href="#">Help & FAQs</a></p>
+                <p><a href="#">Terms of Use</a></p>
+                <p><a href="#">Privacy Policy</a></p>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-7 col-md-4">
                 <h5>Contact Us</h5>
                 <p><i class="fas fa-phone-square-alt"></i> +91-987-654-321</p>
-                <p><i class="fas fa-envelope-open-text"></i> bose@support</p>
+                <p><i class="fas fa-envelope-open-text"></i> support@bose.com</p>
                 <p><i class="fas fa-map-marked-alt"></i> No.304, Prestige Emporium, Mahatma Gandhi Road, Bengaluru,
                     Karnataka 560001</p>
             </div>
@@ -283,27 +299,22 @@
     </div>
     <div class="footer2">
         <div class="footer2content container">
-            <!-- <div class="row"> -->
-            <!-- <div class="col-sm-6 leftcontent"> -->
             <div class="copy">&copy; 2020 Copyright</div>
-            <!-- </div> -->
-            <!-- <div class="col-sm-6 rightcontent"> -->
             <div class="social-icons">
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-facebook-square"></i>
                 <i class="fab fa-pinterest-p"></i>
                 <i class="fab fa-instagram"></i>
             </div>
-            <!-- </div> -->
-            <!-- </div> -->
         </div>
     </div>
+    <!-- footer ends -->
 
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="js/noframework.waypoints.min.js"></script>
+    <script src="js/main.js"></script>
 
-    <!-- jquery -->
-    <!-- <script src="js/jquery.3.4.1.js"></script> -->
-    <!-- bootstrap JS -->
-    <!-- <script src="js/bootstrap.min.js"></script> -->
 </body>
 
 </html>
