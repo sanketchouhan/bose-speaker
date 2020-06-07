@@ -694,6 +694,12 @@ font-family: 'Public Sans', sans-serif;
     color: #ef3e36;
     margin-right: .2rem;
   }
+
+  .note{
+    font-size: .6rem;
+    text-align: right;
+    color: #848c88;
+  }
   
   .footer2 {
     width: 100%;
